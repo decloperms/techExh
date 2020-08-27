@@ -1,0 +1,202 @@
+#logo{
+    background-image: url(../images/MindSpark20.svg);
+    background-repeat: no-repeat;
+    height: 8vh;
+    width: 40vh;
+}
+
+#img-more{
+    height: 87vh;
+}
+
+@media  all and (max-width:991px){
+    .card{
+        margin: 5% auto;
+    }
+}
+
+
+@media  all and (min-width:559px) and (max-width:670px){
+    #img-more{
+        height: 91vh;
+    }
+}
+@media  all and (min-width:479px) and (max-width:558px){
+    #img-more{
+        height: 95vh;
+    }
+}
+@media  all and (min-width:376px) and (max-width:478px){
+    #img-more{
+        height: 91vh;
+    }
+}
+@media  all and (min-width:348px) and (max-width:375px){
+    #img-more{
+        height: 95vh;
+    }
+}
+@media  all and (max-width:348px){
+    #img-more{
+        height: 98vh;
+    }
+}
+@media all and (min-width: 992px){
+    .col-md-6{
+        margin: 1% auto;
+    }
+}
+@media all and (max-width:767px){
+    .col-xs-12{
+        margin-top:5% ;
+    }
+}
+ 
+
+.navbar-fixed-top{
+    background-color: white;
+}
+
+
+
+ .card {
+	 border-radius: 16px;
+	 width: 360px;
+	 height: 360px;
+	 background: url(https://picsum.photos/360/360?image=0);
+	 position: relative;
+	 overflow: hidden;
+     box-shadow: 0 5px 50px rgba(0, 0, 0, 0.85);
+     
+}
+ .card:before {
+	 content: "";
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 top: 0;
+	 background-color: rgba(0, 0, 0, 0.92);
+}
+ .card .img {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 display: flex;
+}
+.card1 .img span {
+    width: 25%;
+    height: 100%;
+    background: url(../images/download.jfif);
+    transition: 0.5s;
+    background-size: cover;
+}
+ .card2 .img span {
+	 width: 25%;
+	 height: 100%;
+	 background: url(../images/download\ \(1\).jfif);
+     transition: 0.5s;
+     background-size: cover;
+}
+.card3 .img span {
+    width: 25%;
+    height: 100%;
+    background: url(../images/download\ \(2\).jfif);
+    transition: 0.5s;
+    background-size: cover;
+}
+.card4 .img span {
+    width: 25%;
+    height: 100%;
+    background: url(../images/Boson\ Machines\ logo.png);
+    transition: 0.5s;
+    background-size: cover;
+}
+.card5 .img span {
+    width: 25%;
+    height: 100%;
+    background: url(../images/Logicon\ logo.png);
+    transition: 0.5s;
+    background-size: cover;
+}
+.card6 .img span {
+    width: 25%;
+    height: 100%;
+    background: url(../images/Cubot\ logo.png);
+    transition: 0.5s;
+    background-size: cover;
+}
+.card7 .img span {
+    width: 25%;
+    height: 100%;
+    background: url(../images/HighOn3D\ logo.png);
+    transition: 0.5s;
+    background-size: cover;
+}
+.card8 .img span {
+    width: 25%;
+    height: 100%;
+    background: url(../images/IndiaFIRST\ Robotics\ logo.jpg);
+    transition: 0.5s;
+    background-size: cover;
+}
+.card9 .img span {
+    width: 25%;
+    height: 100%;
+    background: url(../images/Neurosky\ logo.png);
+    transition: 0.5s;
+    background-size: cover;
+}
+.card10 .img span {
+    width: 25%;
+    height: 100%;
+    background: url(../images/Saankhya\ Labs\ logo.png);
+    transition: 0.5s;
+    background-size: cover;
+}
+.card11 .img span {
+    width: 25%;
+    height: 100%;
+    background: url(../images/Awega\ green\ technologies\ logo.jfif);
+    transition: 0.5s;
+    background-size: cover;
+}
+
+ .card .img span:nth-child(1) {
+	 background-position: 0;
+	 transition-delay: 0;
+}
+ .card .img span:nth-child(2) {
+	 background-position: 33.33333%;
+	 transition-delay: 0.1s;
+}
+ .card .img span:nth-child(3) {
+	 background-position: 66.66666%;
+	 transition-delay: 0.2s;
+}
+ .card .img span:nth-child(4) {
+	 background-position: 100%;
+	 transition-delay: 0.3s;
+}
+ .card:hover .img > span {
+	 transform: translateY(-100%);
+}
+ .card:hover .content {
+	 transform: translateY(0%);
+	 transition: 1s;
+	 transition-delay: 0.1s;
+}
+ .content {
+	 box-sizing: border-box;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: column;
+	 color: white;
+	 padding: 20px 20px;
+	 width: 100%;
+	 height: 100%;
+	 transform: translateY(100%);
+}
+ 
