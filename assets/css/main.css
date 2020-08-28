@@ -8,7 +8,8 @@
 #img-more{
     height: 87vh;
 }
-@media  all and (min-width:367) and (max-width:344px){
+
+@media  all and (min-width:367px) and (max-width:344px){
     #logo{
         height: 8vh;
         width: 39vh;
@@ -16,7 +17,7 @@
     }
 }
 
-@media  all and (min-width:304) and (max-width:336px){
+@media  all and (min-width:304px) and (max-width:336px){
     #logo{
         height: 8vh;
         width: 34vh;
@@ -24,14 +25,14 @@
     }
 }
 
-@media  all and (min-width:294) and (max-width:303px){
+@media  all and (min-width:294px) and (max-width:303px){
     #logo{
         height: 8vh;
         width: 33vh;
         padding: 0px;
     }
 }
-@media  all and (min-width:281) and (max-width:293px){
+@media  all and (min-width:281px) and (max-width:293px){
     #logo{
         height: 8vh;
         width: 32vh;
