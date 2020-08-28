@@ -8,6 +8,36 @@
 #img-more{
     height: 87vh;
 }
+@media  all and (min-width:367) and (max-width:344px){
+    #logo{
+        height: 8vh;
+        width: 39vh;
+        padding: 0px;
+    }
+}
+
+@media  all and (min-width:304) and (max-width:336px){
+    #logo{
+        height: 8vh;
+        width: 34vh;
+        padding: 0px;
+    }
+}
+
+@media  all and (min-width:294) and (max-width:303px){
+    #logo{
+        height: 8vh;
+        width: 33vh;
+        padding: 0px;
+    }
+}
+@media  all and (min-width:281) and (max-width:293px){
+    #logo{
+        height: 8vh;
+        width: 32vh;
+        padding: 0px;
+    }
+}
 
 @media  all and (max-width:991px){
     .card{
