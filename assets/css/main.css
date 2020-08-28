@@ -18,27 +18,42 @@
 
 @media  all and (min-width:559px) and (max-width:670px){
     #img-more{
-        height: 91vh;
+        height: 95vh;
+    }
+    #text{
+        height: 82vh;
     }
 }
 @media  all and (min-width:479px) and (max-width:558px){
     #img-more{
+        height: 108vh;
+    }
+    #text{
         height: 95vh;
     }
 }
 @media  all and (min-width:376px) and (max-width:478px){
     #img-more{
-        height: 91vh;
+        height: 95vh;
+    }
+    #text{
+        height: 82vh;
     }
 }
 @media  all and (min-width:348px) and (max-width:375px){
     #img-more{
-        height: 95vh;
+        height: 97vh;
+    }
+    #text{
+        height: 84vh;
     }
 }
 @media  all and (max-width:348px){
     #img-more{
-        height: 98vh;
+        height: 102vh;
+    }
+    #text{
+        height: 89vh;
     }
 }
 @media all and (min-width: 992px){
@@ -61,8 +76,8 @@
 
  .card {
 	 border-radius: 16px;
-	 width: 360px;
-	 height: 360px;
+	 width: 250px;
+	 height: 250px;
 	 background: url(https://picsum.photos/360/360?image=0);
 	 position: relative;
 	 overflow: hidden;
