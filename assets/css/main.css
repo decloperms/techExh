@@ -9,13 +9,7 @@
     height: 87vh;
 }
 
-@media  all and (max-width:500px){
-    #para{
-        width: 100%;
-    }
-}
-
-@media  all and (min-width:337px) and (max-width:343px){
+@media  all and (min-width:367px) and (max-width:344px){
     #logo{
         height: 8vh;
         width: 39vh;
@@ -140,7 +134,7 @@
 .card1 .img span {
     width: 25%;
     height: 100%;
-    background: url(../images/Defence_Research_and_Development_Organisation_Logo.png);
+    background: url(../images/download.jfif);
     transition: 0.5s;
     background-size: cover;
 }
@@ -154,7 +148,7 @@
 .card3 .img span {
     width: 25%;
     height: 100%;
-    background: url(../images/indro.jpg);
+    background: url(../images/download\ \(2\).jfif);
     transition: 0.5s;
     background-size: cover;
 }
