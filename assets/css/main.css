@@ -9,10 +9,24 @@
     height: 87vh;
 }
 
-@media  all and (min-width:367px) and (max-width:344px){
+@media  all and (max-width:767px){
+    #para{
+        width: 100%;
+    }
+}
+
+@media  all and (min-width:344px) and (max-width:367px){
     #logo{
         height: 8vh;
         width: 39vh;
+        padding: 0px;
+    }
+}
+
+@media  all and (min-width:337px) and (max-width:343px){
+    #logo{
+        height: 8vh;
+        width: 38vh;
         padding: 0px;
     }
 }
@@ -25,17 +39,32 @@
     }
 }
 
-@media  all and (min-width:294px) and (max-width:303px){
+@media  all and (min-width:295px) and (max-width:303px){
     #logo{
         height: 8vh;
         width: 33vh;
         padding: 0px;
     }
 }
+
+@media  all and (min-width:293px) and (max-width:294px){
+    #logo{
+        height: 8vh;
+        width: 30vh;
+        padding: 0px;
+    }
+}
+@media  all and (min-width:281px) and (max-width:292px){
+    #logo{
+        height: 8vh;
+        width: 31vh;
+        padding: 0px;
+    }
+}
 @media  all and (min-width:281px) and (max-width:293px){
     #logo{
         height: 8vh;
-        width: 32vh;
+        width: 31vh;
         padding: 0px;
     }
 }
@@ -134,7 +163,7 @@
 .card1 .img span {
     width: 25%;
     height: 100%;
-    background: url(../images/download.jfif);
+    background: url(../images/Defence_Research_and_Development_Organisation_Logo.png);
     transition: 0.5s;
     background-size: cover;
 }
@@ -148,7 +177,7 @@
 .card3 .img span {
     width: 25%;
     height: 100%;
-    background: url(../images/download\ \(2\).jfif);
+    background: url(../images/indro.jpg);
     transition: 0.5s;
     background-size: cover;
 }
